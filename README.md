@@ -1,5 +1,17 @@
 # Http-Json-Example
 
+*COMPANY*: CODETECH IT SOLUTIONS
+
+*NAME*: VANSH GOUR
+
+*INTERN ID*: CT04DN894
+
+*DOMAIN*: JAVA PROGRAMMING
+
+*DURATION*: 4 WEEKS
+
+*MENTOR*: NEELA SANTOSH
+
 This Java program demonstrates how to make an HTTP GET request to a public API using the built-in java.net.http package introduced in Java 11. It fetches a JSON response, processes the returned data, and extracts specific fields for display. The primary goal is to show how Java can interact with web services and parse JSON content, even without relying on external libraries.
 
 The API used in this example is Agify.io, a simple and publicly accessible service that predicts the age of a person based on their name. When a request is made with a query like https://api.agify.io/?name=john, the API responds with a JSON object containing three pieces of data: the name, the predicted age, and the number of data samples (count) used to make the prediction. The response looks something like this:
